@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>最初の一歩</title>
+  <link rel="stylesheet" href="css/style-common.css">
+  <link rel="stylesheet" href="css/style-page02.css">
+</head>
+
+<body id="page02" class="lower">
+  <header>
+    <h1>JAVA学習</h1>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="page01.html">軽く紹介</a>
+      <a href="page02.html">最初の一歩</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-heading">
+      <h2>初めから</h2>
+      <p>昔はnotepad++というソフトを使用しているが、基本機能しかないため、<br>
+        現在にはVS codeというソフトが幅広く使用されています。</p>
+    </section>
+
+    <div class="layout">
+      <article>
+        <section>
+          <h2>最初の一歩</h2>
+          <p>VS codeの公式サイトからVS codeをダウンロードしましょう!!!</p>
+          <p><a href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user">VS code公式ダウンロードリンク</a>
+          </p>
+
+          <h3>環境を整える</h3>
+          <p>JAVAを書くには勿論テストできる環境もほしいですね。<br>
+            では、JAVAもダウンロードしましょう</p>
+          <p><a href="https://www.java.com/ja/download/">JAVA公式</a></p>
+
+
+          <h3>VS codeから始める</h3>
+          <p>vs codeの拡張機能にJAVA機能をダウンロードしましょう。<br>
+            次にはlocalのどこでも良いので、とにかくフォルダを作成、VS codeに投げましょう。<br>
+            下記の通りになっているなら完成です。</p>
+          <img src="img/vscode_first_step.png" id="vscode_first">
+        </section>
+
+        <section>
+          <h2>Hello World!!</h2>
+          <p>ワークスペース横の新しいファイルというボタンを押し、名前Hello world.jarと変えましょう<br>
+            そして、中にこのようなコードを書けばHello worldを出力できる</p>
+          <section class="code">
+            <p>class HelloWorld {
+              public static void main(String[] args) {
+              System.out.println("Hello, World!");
+              }
+              }</p>
+          </section>
+
+          <h3>SUB SECTION 01</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+            Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+          <h3>SUB SECTION 02</h3>
+          <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue
+            semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+        </section>
+      </article>
+
+      <aside>
+        <h2>SIDEBAR</h2>
+        <ul>
+          <li><a href="#">LINK 01</a></li>
+          <li><a href="#">LINK 02</a></li>
+          <li><a href="#">LINK 03</a></li>
+        </ul>
+      </aside>
+    </div><!-- /.layout -->
+  </main>
+
+  <footer>
+    <p>&copy; SITE NAME</p>
+  </footer>
+</body>
+
+</html>

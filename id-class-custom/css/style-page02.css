@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#page02 .page-heading h2{
+    color: #e47cc5;
+}
+
+#vscode_first{
+    width:100% ;
+}
+
+#code{
+    background: #333;
+}
+#code p{
+    color: #fff;
+}
